@@ -29,6 +29,9 @@ export const PROFILE = {
 
 export const TECH_STACK: readonly string[] = [
   'React',
+  'Vue.js',
+  'Nuxt',
+  'Pinia',
   'JavaScript',
   'TypeScript',
   'Tailwind CSS',

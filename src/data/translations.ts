@@ -82,6 +82,20 @@ export interface SiteTranslation {
     copyEmailAria: string;
     copy: string;
     copied: string;
+    formTitle: string;
+    formDescription: string;
+    nameLabel: string;
+    namePlaceholder: string;
+    emailLabel: string;
+    emailPlaceholder: string;
+    messageLabel: string;
+    messagePlaceholder: string;
+    submitButton: string;
+    submittingButton: string;
+    successTitle: string;
+    successMessage: string;
+    sendAnother: string;
+    errorMessage: string;
   };
   footer: {
     backToTop: string;
@@ -179,10 +193,24 @@ export const TRANSLATIONS: Record<Language, SiteTranslation> = {
     contact: {
       heading: "Have an idea? Let's build it.",
       description:
-        'Open to websites, business systems, custom dashboards, and meaningful collaborations. Reach out directly through any channel here.',
+        'Open to websites, business systems, custom dashboards, and meaningful collaborations. Reach out directly through any channel here, or send a message below.',
       copyEmailAria: 'Copy email address',
       copy: 'Copy',
       copied: 'Copied',
+      formTitle: 'Send a Message',
+      formDescription: 'Have a project in mind or want to collaborate? Leave a message below.',
+      nameLabel: 'Your Name',
+      namePlaceholder: 'e.g. Alex Pratama',
+      emailLabel: 'Email Address',
+      emailPlaceholder: 'alex@example.com',
+      messageLabel: 'Message',
+      messagePlaceholder: 'Tell me about your project, idea, or questions...',
+      submitButton: 'Send Message',
+      submittingButton: 'Sending...',
+      successTitle: 'Message sent!',
+      successMessage: 'Thank you for reaching out. I will get back to you as soon as possible.',
+      sendAnother: 'Send another message',
+      errorMessage: 'Failed to send message. Please try again or reach out via direct email.',
     },
     footer: {
       backToTop: 'Back to top',
@@ -278,10 +306,24 @@ export const TRANSLATIONS: Record<Language, SiteTranslation> = {
     contact: {
       heading: 'Punya ide? Mari kita bangun.',
       description:
-        'Terbuka untuk pembuatan website, sistem bisnis, dasbor kustom, dan kolaborasi bermakna. Hubungi langsung melalui saluran di sini.',
+        'Terbuka untuk pembuatan website, sistem bisnis, dasbor kustom, dan kolaborasi bermakna. Hubungi langsung melalui saluran di sini, atau kirim pesan melalui formulir di bawah.',
       copyEmailAria: 'Salin alamat email',
       copy: 'Salin',
       copied: 'Tersalin',
+      formTitle: 'Kirim Pesan',
+      formDescription: 'Ada ide proyek atau ingin berdiskusi? Tinggalkan pesan di bawah ini.',
+      nameLabel: 'Nama Lengkap',
+      namePlaceholder: 'contoh: Alex Pratama',
+      emailLabel: 'Alamat Email',
+      emailPlaceholder: 'alex@example.com',
+      messageLabel: 'Isi Pesan',
+      messagePlaceholder: 'Ceritakan tentang kebutuhan proyek, perkiraan waktu, atau ide Anda...',
+      submitButton: 'Kirim Pesan',
+      submittingButton: 'Mengirim...',
+      successTitle: 'Pesan berhasil terkirim!',
+      successMessage: 'Terima kasih telah menghubungi. Saya akan membalas pesan Anda sesegera mungkin.',
+      sendAnother: 'Kirim pesan lain',
+      errorMessage: 'Gagal mengirim pesan. Silakan coba lagi atau hubungi via email langsung.',
     },
     footer: {
       backToTop: 'Kembali ke atas',
